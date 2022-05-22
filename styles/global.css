@@ -9,7 +9,7 @@ html {
 }
 
 body{
-    font-family: "LXGW Wenkai Screen R";
+    font-family: sans;
 	margin: auto;
 	padding: 18px;
 	max-width: 600px;
@@ -17,6 +17,12 @@ body{
 	text-align: left;
 	background-color: #ccccd6;
 	position: relative;
+}
+
+@media(min-width: 768px) {
+    body {
+        font-family: "LXGW Wenkai Screen R";
+    }
 }
 
 a{
@@ -45,4 +51,3 @@ footer{
 	margin-top: 40px;
 	text-align: left;
 }
-
