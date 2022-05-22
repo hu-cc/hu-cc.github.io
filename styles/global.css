@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "LXGW Wenkai Screen R";
+    src: url('../fonts/LXGWWenKaiScreenR.ttf');
+}
+
+html {
+    /* 远山紫 */
+    background-color: #ccccd6;
+}
+
+body{
+    font-family: "LXGW Wenkai Screen R";
+	margin: auto;
+	padding: 18px;
+	max-width: 600px;
+	font-size: 20px;
+	text-align: left;
+	background-color: #ccccd6;
+	position: relative;
+}
+
+a{
+    /* 落霞红 */
+	color: #cf4813;
+}
+
+header p, nav a, footer div a {
+	margin:0px 5px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+main p {
+    font-size: 24px;
+}
+
+footer{
+	margin-top: 40px;
+	text-align: left;
+}
+
